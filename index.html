@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hush & Calm</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet"> <!--link ifrån googlefont så att jag kan använda den fonten jag vill ha-->
+
+</head>
+<body>
+    <header id="navbar"> <!--öppnar upp en header väljer att ha använda en id vid namn navbar-->
+        <div class ="Logo"> <!--öppnar upp en div och döper den klassen till logo-->
+            <img src="Group 13 (2).svg" alt=""> <!--sätter in logan för min sida-->
+            <a href=""class="header-logo">H & C</a><!--använder en a för och döper den till header-logo-->
+          
+        </div> <!--stänger av logo diven-->
+        <nav class="nav" id="nav-menu"> <!--öppnar upp en nav med classnamn nav och id namn med navmenu-->
+            <ion-icon name="close" class="header-close" id="close-menu"></ion-icon> <!--iconen som jag har hämtat ifrån icon-icon-->
+            <ul class="nav-list"><!--listan med navlista-->
+                <li class="nav-item"><a href="#home" class ="nav-link">Home</a></li> <!--innehållet av listan-->
+                <li class="nav-item"><a href="#about" class ="nav-link">About us</a></li><!--innehållet av listan -->
+                <li class="nav-item"><a href="#reservation" class ="nav-link">Reservation</a></li><!--innehållet av listan -->
+                <li class="nav-item"><a href="#contact" class ="nav-link">Contact</a></li><!--innehållet av listan -->
+            </ul> <!--stänger av ul-->
+        </nav><!--stänger nav-->
+        <ion-icon name="menu" class="header-toggle" id="toggle-menu"></ion-icon><!--iconen som visar sig när den ska stängas -->
+    </header><!--stänger headern-->
+    <video class="background-video" autoplay  muted src="pexels-roman-odintsov-8231585.mp4"></video><!--backgrondsvideon-->
+    <div class="container"><!--öppnar up en div med klassnamn container-->
+        <section id="home"><H1>Hush & Calm </H1></section> <!--öppnar en section med id home och sätter in en h1-->
+        <section id="about"> <!--öppnar upp en section med id-namn about-->
+            <div class = "about-container"><!--öppna upp en div med klass about container-->
+                <div class = "about-img"> </div> <!--en div med klassnamn anout img stänger den diven-->
+
+                <div class = "about-content"><!--öppnar upp en div med klassnman about-content-->
+                    <h3>Hush & Calm</h3> <!--sätter in en h3, och stänger-->
+                    <p>What we do... <!--sätter in en paragraf-->
+                        New Life Foundation is a nonprofit residential retreat and recovery centre. We offer a supportive learning environment for individuals looking for help with personal development and wellbeing. Our unique and integrative approach combines mindfulness, community living, and counselling to help you address stress, burnout, anxiety, or compulsive behaviours.</p>
+                </div><!--stänger av diven -->
+                
+            </div> <!--stänger av diven-->
+
+        </section><!--stänger sectioen-->
+        <section id="reservation"><!--öppnar upp en ny section med id reservation-->
+
+            <div class = "card-container"><!--öpnnar en div med klassnman card-container-->
+                <div class = "card-img"><!--öppnar en div med klass card-img, och stänger diven-->
+                   
+                </div>
+
+                <div class = "card-content"> <!--öppnar upp div med klassnamn card content-->
+                    <h3>Reservation</h3><!--öppnar upp h3 och sänger-->
+                    <form><!--öppnar upp form-->
+                        <div class = "form-row"><!--öppnar upp en div med klassnamn formrow-->
+                            <select name = "days"><!--öppnar upp en select men namn days-->
+                                <option value = "day-select">Select Day</option> <!--vad som syns på boxen-->
+                                <option value = "monday">Monday</option><!--dagarna du kan välja i formen-->
+                                <option value = "tuesday">Tuesday</option>
+                                <option value = "wednesday">Wednesday</option>
+                                <option value = "thursday">Thursday</option>
+                                <option value = "friday">Friday</option>
+                                <option value = "saturday">Saturday</option>
+                            </select><!--stänger av select-->
+
+                            <select name = "hours"><!--öppnar en select men namn hours-->
+                                <option value = "hour-select">Select Hour</option> <!--vad som syns på boxen-->
+                                <option value = "10">10: 00</option><!--tider som går att välja i formen -->
+                                <option value = "10">12: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select><!--stänger av select-->
+                        </div><!--stänger av diven -->
+
+                        <div class = "form-row"><!--öppnar upp en div med klassnman formrow-->
+                            <input type = "text" placeholder="Full Name" required> <!--öppnar upp en input där besökaren kan skriva in sitt namn-->
+                            <input type = "text" placeholder="Phone Number"><!--öppnar upp en input där besökarn mata in sitt nummer-->
+                        </div><!--stänger diven-->
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="How Many Persons?" min = "1">
+                            <input type = "submit" value = "Reserve">
+                        </div>
+                    </form><!--stänger av formen-->
+                </div><!--stänger av diven-->
+            </div><!--stänger av diven-->
+        </section><!--stänger av section -->
+        <section id="contact"><!--öppnar section med id contact-->
+            <div class="info"><!--öppnar upp en div med klass namn info-->
+
+            <ul><!--öppnar upp en ul-->
+                <li>Address: Södra Fogdelyckegatan Göteborg</li><!--lägger in lista-->
+                <li>Phone number: 0709304958</li>
+                <li>Sundays: Closed</li>
+            </ul><!--stänger av ul-->
+            </div><!--stänger av diven-->
+        </section><!--stänger av sectionen-->
+  
+
+        <footer> <!--öppnar upp en footer-->
+            <p>© Ajsha Caca</p><!--lägger in en Paragraf-->
+        </footer><!--stänger av footern-->
+    </div><!--stänger av diven-->
+
+
+
+    <script src="main.js"></script> <!--länkar min js.script-->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script><!--spripten för att jag ska kunna använda iconer från sidan-->
+</body>
+</html>
